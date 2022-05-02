@@ -1,0 +1,93 @@
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto; /*Margem interna automatica*/
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;/*Transforma todo o texto em maiúscula*/  
+	color: #000000;/* Cor do texto Preta*/   
+	font-weight: bold; /*Fonte em negrito*/   
+	font-size: 22px; /*Tamanho da fonte em 20 pixes*/
+	text-decoration: none; /*Nenhuma decoração no texto*/ 
+}
+
+nav a:hover {  /*Comportamentos de quando o mouse passa por cima.*/
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;	
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%; /* Margem de separação*/
+	padding: 30px 20px; /*Espaçamento interno dos Produtos*/
+	box-sizing: border-box;	
+	border: 2px solid #000000; /*Tamanho da borda;Tipo da Borda; Cor da Borda*/
+	border-radius: 10px;  /*Arrendondamento de Borda*/
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+	
+}
+
+.produtos li:active { /*Comportamento de quando o mouse e clicado.*/
+	border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2 {
+	font-size: 30px; /*Tamanho da Fonte*/
+	font-weight: bold; /*Fonte em Negrito*/
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg"); /*Quando adicionamos uma imagem no CSS*/
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF; /*Cor Branca*/
+	font-size: 13px;
+	margin: 20px 0 0;
+}	
+
